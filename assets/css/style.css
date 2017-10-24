@@ -1,0 +1,22 @@
+body, html {
+	height: 100%;
+	margin: 0 auto;
+	clear: both;
+	}
+
+
+/*id's*/
+#header {
+	text-align: center;
+	margin-top: 40px;
+	
+}
+
+/*classes*/
+.bg {
+	background-image: url("../images/goonies.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
