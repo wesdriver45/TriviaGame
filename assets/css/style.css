@@ -1,18 +1,25 @@
+
+
 body, html {
 	height: 100%;
 	margin: 0 auto;
 	clear: both;
 	}
 
+li {
+	display: inline;
+	font-size: 20px;
+}
 
 /*id's*/
 #header {
 	text-align: center;
 	margin-top: 40px;
-	
+	font-family: 'Coda Caption', sans-serif;
 }
 
 /*classes*/
+	
 .bg {
 	background-image: url("../images/goonies.jpg");
 	height: 100%;
@@ -20,3 +27,31 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.startBox {
+	margin-top: 45%;
+	margin-left: 25%;
+    width: 50%;
+}
+
+.startGame {
+	height: 200px;
+	width: 100%;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 50px;
+	border-radius: 15px;
+}
+
+.ques {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 30px;
+}
+
+.quesBox {
+
+}
+
+.ques {
+	padding-bottom: 40px;
+}
+

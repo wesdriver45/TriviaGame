@@ -12,25 +12,89 @@
 <!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+	<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+
 
 </head>
-<body class = "bg">
-
-	<header id="header">
-		<h1>Hey, You Guys!!!</h1>
-	  	<h2>Goonies Trivia</h2>
-	</header>
-
-
-
-
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body class ="bg">
 	
-	<script src="assets/javascript/game.js"></script>
+
+		<header id="header">
+			<h1>Hey, You Guys!!!</h1>
+		  	<h2>Goonies Trivia</h2>
+		</header>
+		
+		<div class="startBox">
+		<button class="startGame" type="button">Are you a Goonie?</button>
+		</div>
+
+		<div id="gameBox">
+
+			<div id="display">00:00</div>
+
+			<div class="quesBox"> 
+
+				<div class="ques"> Name the town the Goonies lived in.
+					<ul>
+					    <li><label><input name="Question0" value="false" type="radio"> Chicago </label></li>
+					    <li><label><input name="Question0" value="false" type="radio"> Redwood </label></li>
+					    <li><label><input name="Question0" value="true" type="radio"> Astoria </label></li>
+					    <li><label><input name="Question0" value="false" type="radio"> Massanutten </label></li>
+					   </ul>
+				</div>
+
+				<div class="ques"> Whose sister came to use the bathroom 	at Chunk's house?
+					<ul>
+					    <li><label><input name="Question0" value="true" type="radio"> Michael Jackson's </label></li>
+					    <li><label><input name="Question0" value="false" type="radio"> Cyndi Lauper </label></li>
+					    <li><label><input name="Question0" value="false" type="radio"> David Bowie </label></li>
+					    <li><label><input name="Question0" value="false" type="radio"> Molly Ringwald </label></li>
+					</ul>
+
+				</div>
+
+				<div class="ques"> What is Sloth's favorite candy bar?
+					<ul>
+					    <li><label><input name="Question0" value="false" type="radio"></label> Snickers </li>
+					    <li><label><input name="Question0" value="false" type="radio"></label> Payday </li>
+					    <li><label><input name="Question0" value="flase" type="radio"></label> Almond Joy </li>
+					    <li><label><input name="Question0" value="true" type="radio"> Baby Ruth </label></li>
+					   </ul>
+
+				</div>
+
+				<div class="ques"> What scene was deleted but still 		mentioned by Data towards the end of the movie?
+					<ul>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Ninja Fight </label></li>
+					    <li><label><input name="Question0" value="true" type="radio"> The Octopus </label></li>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Toupe </label</li>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Pizza </label></li>
+					   </ul>
+
+				</div>
+
+				<div class="ques"> What is the name of the dance Chunk has 		to do to get into Mikey's house?
+					<ul>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Boogie </label></li>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Hokey Pokey </label></li>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Truffle Shuffle </label></li>
+					    <li><label><input name="Question0" value="flase" type="radio"> The Twist </label></li>
+					</ul>
+				</div>
+
+			</div>
+
+ 		</div>
 
 
+
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+		<script src="assets/javascript/game.js"></script>
+
+	
 </body>
 </html>
