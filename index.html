@@ -23,14 +23,18 @@
 			<h1>Hey, You Guys!!!</h1>
 		  	<h2>Goonies Trivia</h2>
 		</header>
-		
+
+		<!-- big start button in center of page -->
 		<div class="startBox">
 		<button class="startGame" type="button">Are you a Goonie?</button>
 		</div>
 
 		<div id="gameBox">
 
-			<div id="display">00:00</div>
+			<div id="display">1:00</div>
+
+			<!-- 5 ques with 4 multi choice answers each
+				 each answer has a circle click -->
 
 			<div class="quesBox"> 
 
@@ -45,47 +49,57 @@
 
 				<div class="ques"> Whose sister came to use the bathroom 	at Chunk's house?
 					<ul>
-					    <li><label><input name="Question0" value="true" type="radio"> Michael Jackson's </label></li>
-					    <li><label><input name="Question0" value="false" type="radio"> Cyndi Lauper </label></li>
-					    <li><label><input name="Question0" value="false" type="radio"> David Bowie </label></li>
-					    <li><label><input name="Question0" value="false" type="radio"> Molly Ringwald </label></li>
+					    <li><label><input name="Question1" value="true" type="radio"> Michael Jackson's </label></li>
+					    <li><label><input name="Question1" value="false" type="radio"> Cyndi Lauper's </label></li>
+					    <li><label><input name="Question1" value="false" type="radio"> David Bowie's </label></li>
+					    <li><label><input name="Question1" value="false" type="radio"> Molly Ringwald's </label></li>
 					</ul>
 
 				</div>
 
 				<div class="ques"> What is Sloth's favorite candy bar?
 					<ul>
-					    <li><label><input name="Question0" value="false" type="radio"></label> Snickers </li>
-					    <li><label><input name="Question0" value="false" type="radio"></label> Payday </li>
-					    <li><label><input name="Question0" value="flase" type="radio"></label> Almond Joy </li>
-					    <li><label><input name="Question0" value="true" type="radio"> Baby Ruth </label></li>
+					    <li><label><input name="Question2" value="false" type="radio"></label> Snickers </li>
+					    <li><label><input name="Question2" value="false" type="radio"></label> Payday </li>
+					    <li><label><input name="Question2" value="flase" type="radio"></label> Almond Joy </li>
+					    <li><label><input name="Question2" value="true" type="radio"> Baby Ruth </label></li>
 					   </ul>
 
 				</div>
 
 				<div class="ques"> What scene was deleted but still 		mentioned by Data towards the end of the movie?
 					<ul>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Ninja Fight </label></li>
-					    <li><label><input name="Question0" value="true" type="radio"> The Octopus </label></li>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Toupe </label</li>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Pizza </label></li>
+					    <li><label><input name="Question3" value="flase" type="radio"> The Ninja Fight </label></li>
+					    <li><label><input name="Question3" value="true" type="radio"> The Octopus </label></li>
+					    <li><label><input name="Question3" value="flase" type="radio"> The Toupe </label</li>
+					    <li><label><input name="Question3" value="flase" type="radio"> The Pizza </label></li>
 					   </ul>
 
 				</div>
 
 				<div class="ques"> What is the name of the dance Chunk has 		to do to get into Mikey's house?
 					<ul>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Boogie </label></li>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Hokey Pokey </label></li>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Truffle Shuffle </label></li>
-					    <li><label><input name="Question0" value="flase" type="radio"> The Twist </label></li>
+					    <li><label><input name="Question4" value="flase" type="radio"> The Boogie </label></li>
+					    <li><label><input name="Question4" value="flase" type="radio"> The Hokey Pokey </label></li>
+					    <li><label><input name="Question4" value="flase" type="radio"> The Truffle Shuffle </label></li>
+					    <li><label><input name="Question4" value="flase" type="radio"> The Twist </label></li>
 					</ul>
 				</div>
 
 			</div>
 
+
+			<div id="scoreBox">
+				Goonie:
+				<span id="right"></span><<br>
+				Fratelli:
+				<span id="wrong"></span>
+			</div>
+
+
  		</div>
 
+ 		
 
 
 
