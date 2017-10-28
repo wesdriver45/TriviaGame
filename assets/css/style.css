@@ -61,5 +61,19 @@ li {
 	padding-left: 20px;
 
 }
+.resetBox {
+	margin-top: 45%;
+	margin-left: 25%;
+    width: 50%;
+}
+
+.resetGame {
+	height: 200px;
+	width: 100%;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 50px;
+	border-radius: 15px;
+
+}
 
 
